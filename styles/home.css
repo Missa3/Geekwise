@@ -1,0 +1,166 @@
+body {
+    background: #F2F2F2;
+font-family: 'Nunito', sans-serif;
+}
+
+.navbar-brand {
+    padding: 10px 45px;
+    line-height: 30px;
+    margin-left: 50px;
+}
+
+.navbar>.container .navbar-brand {
+    margin-left: -35px;
+}
+
+.nav>li>a {
+    padding: 15px 15px 15px 15px;
+}
+
+.navbar-default {
+    border-top: 5px solid #b32018;
+    border-radius: 0;
+    margin-bottom: 0;
+    width: 100%;
+    z-index: 20;
+    position: fixed;
+}
+
+.reviews .container {
+    margin: 0 auto;
+
+    padding-bottom: 20px;
+}
+
+.navbar-right {
+    height: 50px;
+}
+
+.btn-lg {
+    border-radius: 0;
+}
+
+#apply {
+    position: relative;
+    top: -7.5px;
+}
+
+.navbar .logo {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    float: left;
+}
+
+.main {
+    background-image: url('http://cdn.wccftech.com/wp-content/uploads/2017/01/learn-to-code-1920x811.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+    text-align: center;
+}
+
+.content {
+    padding: 15% 0 15% 0;
+}
+
+#description {
+    margin: 2% auto;
+    text-align: center;
+}
+
+#description img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+#description p {
+    font-size: 1.2em;
+}
+
+.what {
+    background-image: url('http://wfresnofrc.org/wp-content/uploads/2017/04/Skyline.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 500px;
+}
+
+.what .about {
+    box-sizing: border-box;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    max-width: 600px;
+    width: 100%;
+    height: 500px;
+    font-size: 1.25em;
+    padding: 15px;
+    line-height: 1.2;
+}
+
+.how {
+    background-image: url('http://www.fresnobee.com/news/business/eoiwyq/picture112126467/alternates/LANDSCAPE_1140/bitwise');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+}
+
+.how .text {
+    box-sizing: border-box;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    width: 100%;
+    height: 500px;
+    font-size: 1.25em;
+    padding: 15px;
+    line-height: 1.2;
+    float: right;
+}
+
+.reviews {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.reviews i {
+    color: #b32018;
+}
+
+.reviews .logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+hr {
+    border: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #b32018 , rgba(0, 0, 0, 0));
+}
+
+.quote {
+    border: solid 5px #fcda07;
+    box-shadow: 10px 10px 5px #888888;
+    max-width: 350px;
+    margin: 10px auto;
+}
+
+.quote .students {
+    padding: 10px;
+}
+
+.quote .students img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.contact{
+  background: #b32018;
+  height: 100px;
+}
