@@ -209,3 +209,15 @@ body {
 #instagram:hover {
     color: #9229d8;
 }
+
+ i:hover, .nks i:hover,{
+  font-size: 150%;
+}
+.btn:hover{
+  font-size: 110%;
+}
+.back i:hover, .box img:hover {
+  position: relative;
+  top: -10px;
+  left: 5px;
+}

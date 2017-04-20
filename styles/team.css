@@ -1,0 +1,159 @@
+body {
+    background: #F2F2F2;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-brand {
+    padding: 10px 10px;
+    line-height: 30px;
+    margin-left: 50px;
+    position: relative;
+    top: 1px;
+}
+
+.navbar>.container .navbar-brand {
+    margin-left: 5px;
+}
+
+.nav>li>a {
+    padding: 15px 10px;
+}
+
+.navbar-default {
+    border-top: 5px solid #b32018;
+    border-radius: 0;
+    /*margin-bottom: 0;*/
+    width: 100%;
+    z-index: 20;
+    position: fixed;
+}
+
+.reviews .container {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.navbar-right {
+    min-height: 50px;
+    position: relative;
+    top: 7px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.navbar .logo {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    float: left;
+}
+
+#apply {
+    position: relative;
+    top: -7.5px;
+}
+
+.main {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    background-image: url('http://www.saverwallpaper.com/wp-content/uploads/2016/05/Red-Background-New-Wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.main h1 {
+    font-weight: bold;
+}
+
+.reviews {
+  margin-top: 70px;
+  margin-bottom: 70px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.reviews i {
+    color: #b32018;
+}
+
+.students img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+.box{
+  margin: 20px auto;
+  width:300px;
+  background: white;
+   box-shadow: 10px 10px 5px gray;
+   box-sizing: border-box;
+}
+.nks{
+  background: #b32018;
+  box-sizing: border-box;
+}
+.box .nks i{
+  letter-spacing: 10px;
+  color: white;
+  font-size: 1.7em;
+  padding: 15px 0;
+}
+
+.contact {
+  margin-bottom: 0;
+  color: white;
+    background: #3a3a3a;
+    height: 100px;
+  }
+  .contact .container{
+    margin: 0 auto;
+  }
+  .contact ul{
+    text-align: center;
+    padding: 0;
+      margin: 10px auto;
+      max-width: 500px;
+
+  }
+.contact li{
+  padding: 20px;
+  list-style: none;
+  display: inline-block;
+  font-size: 2.25em;
+}
+.contact a{
+  color: inherit;
+}
+ #email:hover{
+   color:#b32018;
+ }
+ #facebook:hover{
+   color: #4267b2;
+ }
+ #twitter:hover{
+   color: #71c9f8;
+ }
+ #instagram:hover{
+color: #9229d8;
+ }
+
+ i:hover, .nks i:hover,{
+  font-size: 150%;
+}
+.btn:hover{
+  font-size: 110%;
+}
+.box:hover{
+  position: relative;
+  top: -20px;
+  right: 5px;
+}

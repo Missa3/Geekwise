@@ -236,3 +236,15 @@ hr {
  #instagram:hover{
 color: #9229d8;
  }
+
+  i:hover, .nks i:hover,{
+   font-size: 150%;
+ }
+ .btn:hover{
+   font-size: 110%;
+ }
+ .quote:hover{
+   position: relative;
+   top: -20px;
+   right: 5px;
+ }
