@@ -1,0 +1,211 @@
+body {
+    background: #F2F2F2;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-brand {
+    padding: 10px 10px;
+    line-height: 30px;
+    margin-left: 50px;
+    position: relative;
+    top: 1px;
+}
+
+.navbar>.container .navbar-brand {
+    margin-left: 5px;
+}
+
+.nav>li>a {
+    padding: 15px 10px;
+}
+
+.navbar-default {
+    border-top: 5px solid #b32018;
+    border-radius: 0;
+    /*margin-bottom: 0;*/
+    width: 100%;
+    z-index: 20;
+    position: fixed;
+}
+
+.reviews .container {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.navbar-right {
+    min-height: 50px;
+    position: relative;
+    top: 7px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.navbar .logo {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    float: left;
+}
+
+#apply {
+    position: relative;
+    top: -7.5px;
+}
+
+.main {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    background-image: url('http://www.saverwallpaper.com/wp-content/uploads/2016/05/Red-Background-New-Wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.main h1 {
+    font-weight: bold;
+}
+
+.main img {
+    width: 100px;
+    height: 100px;
+    margin: 5px auto;
+}
+
+.enroll {
+    background: #fff;
+    padding: 10px 0;
+}
+
+.enroll .btn {
+    display: block;
+    margin: 0 auto;
+}
+
+.back {
+    background-image: url(https://static.pexels.com/photos/160107/pexels-photo-160107.jpeg);
+    background-size: cover;
+    /*background-position: top;*/
+    filter: grayscale(25%);
+}
+
+#description {
+    padding: 20px 0 15px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.description div {
+    margin-bottom: 10px;
+}
+
+.back #description .img {
+    text-align: center;
+    font-size: 180px;
+    color: white;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.back #description p {
+    font-size: 1.2em;
+    width: 250px;
+    border: 1px solid white;
+    margin: 0 auto;
+    color: white;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.col-xs-12 {
+    margin-bottom: 15px;
+}
+
+.courses h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.box {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.courses .box img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.courses h3 {
+    text-align: center;
+    width: 250px;
+    font-weight: bold;
+}
+
+.courses ul, .courses p {
+    text-align: justify;
+    color: black;
+    border: none;
+}
+
+.courses ul {
+    padding-left: 25px;
+}
+
+.courses p {
+    padding-left: 10px;
+}
+
+.contact {
+    color: white;
+    background: #3a3a3a;
+    height: 100px;
+}
+
+.contact .container {
+    margin: 0 auto;
+}
+
+.contact ul {
+    text-align: center;
+    padding: 0;
+    margin: 10px auto;
+    max-width: 500px;
+}
+
+.contact li {
+    padding: 20px;
+    list-style: none;
+    display: inline-block;
+    font-size: 2.25em;
+}
+
+.contact a {
+    color: inherit;
+}
+
+#email:hover {
+    color: #b32018;
+}
+
+#facebook:hover {
+    color: #4267b2;
+}
+
+#twitter:hover {
+    color: #71c9f8;
+}
+
+#instagram:hover {
+    color: #9229d8;
+}
